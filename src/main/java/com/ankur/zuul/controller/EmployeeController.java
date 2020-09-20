@@ -26,11 +26,6 @@ public class EmployeeController {
     private static final String CLIENT_ID = "client-id";
     private EmployeeService employeeService;
 
-    private static final String VALID_USERNAME = "ankur";
-    private static final String VALID_PASSWORD = "ankur";
-
-
-
     @Autowired
     public EmployeeController(EmployeeService employeeService) {
         this.employeeService = employeeService;
